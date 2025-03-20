@@ -4,9 +4,9 @@
 - [Project Background](#Project-Background)
 - [Technologies Used](#Technologies-Used)
 - [Insights Deep-Dive](#Insights-Deep-Dive)
-  -[Product Pricing](#Product-Pricing)
-  -[Statistical Tests](#Statistical-Tests)
-  -[Sales by Date](#Sales-by-Date)
+  - [Product Pricing](#Product-Pricing)
+  - [Statistical Tests](#Statistical-Tests)
+  - [Sales by Date](#Sales-by-Date)
 
 ## Project Background
 Among the six countries being tracked, Canada ranks at the bottom in total chocolate sales. This project aims to analyze key trends, consumer preferences, and sales performance within the Canadian chocolate market to identify insights and provide actionable recommendations for improving sales.
