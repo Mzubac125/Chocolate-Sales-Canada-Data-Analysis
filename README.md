@@ -1,9 +1,20 @@
 # Chocolate-Sales-Canada-Data-Analysis
 
+## Table of Contents
+- [Project Background](#Project-Background)
+- [Technologies Used](#Technologies-Used)
+- [Insights Deep-Dive](#Insights-Deep-Dive)
+
 ## Project Background
 Among the six countries being tracked, Canada ranks at the bottom in total chocolate sales. This project aims to analyze key trends, consumer preferences, and sales performance within the Canadian chocolate market to identify insights and provide actionable recommendations for improving sales.
 
-## Executive Summary
+## Technologies Used
+* SQL - Used for querying, filtering, and preprocessing data
+* Python(Pandas, Statsmodels) - Used for data analysis, and statistical testing.
+* PostgreSQL – Served as the database management system for structured storage and efficient data retrieval.
+* Tableau – Used for creating interactive dashboards and visualizations for insights.
+
+## Insights Deep-Dive
 The first thing to look at is the pricing differences between the 6 countries to see if that is a factor in sales amount. I first took at a look at the products that Canada had priced higher than the other countries but was selling less. I took the products that Canada had been ranking either first or second in price but ranking 4th or lower in amount sold and found these 4 products.
 
 <img width="706" alt="Image" src="https://github.com/user-attachments/assets/9a5a8255-f159-4c75-88ea-c0c7c72d31ba" />
