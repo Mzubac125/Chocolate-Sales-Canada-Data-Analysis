@@ -4,6 +4,9 @@
 - [Project Background](#Project-Background)
 - [Technologies Used](#Technologies-Used)
 - [Insights Deep-Dive](#Insights-Deep-Dive)
+  -[Product Pricing](#Product-Pricing)
+  -[Statistical Tests](#Statistical-Tests)
+  -[Sales by Date](#Sales-by-Date)
 
 ## Project Background
 Among the six countries being tracked, Canada ranks at the bottom in total chocolate sales. This project aims to analyze key trends, consumer preferences, and sales performance within the Canadian chocolate market to identify insights and provide actionable recommendations for improving sales.
@@ -15,6 +18,8 @@ Among the six countries being tracked, Canada ranks at the bottom in total choco
 * Tableau – Used for creating interactive dashboards and visualizations for insights.
 
 ## Insights Deep-Dive
+
+### Product Pricing
 The first thing to look at is the pricing differences between the 6 countries to see if that is a factor in sales amount. I first took at a look at the products that Canada had priced higher than the other countries but was selling less. I took the products that Canada had been ranking either first or second in price but ranking 4th or lower in amount sold and found these 4 products.
 
 <img width="706" alt="Image" src="https://github.com/user-attachments/assets/9a5a8255-f159-4c75-88ea-c0c7c72d31ba" />
@@ -31,6 +36,8 @@ I focused on calories and sugar as key variables. After standardizing the calori
 
 <img width="1047" alt="Image" src="https://github.com/user-attachments/assets/e6109eb3-f340-48e2-a4f5-2fbfbf134aa1" />
 
+### Statistical Tests
+
 To verify whether the observed negative correlation between calorie content and sales was statistically significant, I performed a linear regression analysis using statsmodels. In this model, calories per 100g served as the independent variable (X), while amount sold was the dependent variable (y). By applying the Ordinary Least Squares method, I obtained the following results.
 
 <img width="820" alt="Image" src="https://github.com/user-attachments/assets/103c1c34-8a9b-4341-9b01-75813f7ddec1" />
@@ -38,6 +45,8 @@ To verify whether the observed negative correlation between calorie content and 
 From the results we can see an R-squared value of 0.42 meaning 42% of the variance in amount sold is due to the amount of calories in the product. The p-value for calories is less than 0.05, indicating that the relationship between calories and the amount sold is statistically significant. We can also see that the slope is -82.28, meaning that for every unit increase in calories, we can expect a decrease of 82.28 units in sales.
 
 I ran the same test for sugar but there didn't appear to be a correlation between sugar and amount sold.
+
+### Sales by Date
 
 Next, I wanted to analyze whether the time of year had an impact on sales in Canada. I plotted Canada's sales over the months alongside the average sales for the other countries to identify which months Canada was struggling in.
 
