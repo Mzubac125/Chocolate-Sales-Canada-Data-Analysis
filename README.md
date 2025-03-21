@@ -7,6 +7,7 @@
   - [Product Pricing](#Product-Pricing)
   - [Statistical Tests](#Statistical-Tests)
   - [Sales by Date](#Sales-by-Date)
+- [Final Recommendations](#Final-Recommendations)
 
 ## Project Background
 Among the six countries being tracked, Canada ranks at the bottom in total chocolate sales. This project aims to analyze key trends, consumer preferences, and sales performance within the Canadian chocolate market to identify insights and provide actionable recommendations for improving sales.
@@ -61,7 +62,7 @@ By plotting the sales of all the other countries, I can see that the UK performe
 
 <img width="1051" alt="Image" src="https://github.com/user-attachments/assets/6e86f2ab-4ec4-4940-82e7-7c931d96d5c8" />
 
-## Final Results
+## Final Recommendations
 ##### Price
 There isn’t clear evidence that price is a determining factor in the amount sold, but to explore this further, I suggest testing price adjustments. Specifically, I identified four products that were priced higher and had lower sales compared to other countries. By reducing the price of these products and monitoring sales over a set period, we can assess whether price plays a significant role in influencing demand. 
 
