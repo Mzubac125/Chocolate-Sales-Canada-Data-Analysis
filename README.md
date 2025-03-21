@@ -63,11 +63,11 @@ By plotting the sales of all the other countries, I can see that the UK performe
 <img width="1051" alt="Image" src="https://github.com/user-attachments/assets/6e86f2ab-4ec4-4940-82e7-7c931d96d5c8" />
 
 ## Final Recommendations
-##### **Price**
+#### **Price**
 There isn’t clear evidence that price is a determining factor in the amount sold, but to explore this further, I suggest testing price adjustments. Specifically, I identified four products that were priced higher and had lower sales compared to other countries. By reducing the price of these products and monitoring sales over a set period, we can assess whether price plays a significant role in influencing demand. 
 
-##### **Nutrition**
+#### **Nutrition**
 The analysis of nutrition data revealed a clear correlation between calories and the amount sold, indicating that products with lower calorie counts influence purchasing behavior. I recommend expanding the selection of low-calorie offerings by introducing new products or reformulating existing ones to reduce calorie content while maintaining taste. Marketing efforts should emphasize calorie content through packaging, advertisements, and health-conscious branding. Additionally, optimizing product placement by positioning low-calorie options more prominently in stores and online could further boost sales.
 
-##### **Period of the Year**
+#### **Period of the Year**
 Sales during the spring months showed a noticeable decline in Canada, raising questions about whether this is a recurring seasonal trend or a one-time issue. To better understand this, additional data from other years should be analyzed to determine if spring sales consistently underperform or if something specific to the spring of 2022 caused the drop. Meanwhile, the UK performed exceptionally well during these months, suggesting that their approach may offer valuable insights. Analyzing their marketing campaigns, pricing strategies, or other contributing factors could help identify best practices that could be applied to improve sales performance in Canada during the spring months.
